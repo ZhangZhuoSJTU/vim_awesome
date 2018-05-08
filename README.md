@@ -50,6 +50,9 @@ Tested workable on the following platforms:
 
 <a name="install"></a>
 # Install and Update
+
+Use `./install.sh -h` or `./install.sh --help` for detailed info.
+
 ## Quick Install
 Auto scripts for install/uninstall, but I only tested under limited platforms:
 ```shell
