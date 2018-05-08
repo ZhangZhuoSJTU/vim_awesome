@@ -50,11 +50,11 @@ echo -e ""
 # step.2. update plugins
 echo -e "\033[36m[2] updating plugins ...\033[0m"
 if [ $UPDATE_PLUGINS -eq 1 ]; then
-    # $cur_vim_runtime_dir/update_plugins.py
-    # if [ $? -gt 0 ]; then
-    #     echo -e "\033[31minstall abort\033[0m"
-    #     exit 1
-    # fi
+    $cur_vim_runtime_dir/update_plugins.py
+    if [ $? -gt 0 ]; then
+        echo -e "\033[31minstall abort\033[0m"
+        exit 1
+    fi
     echo -e "\033[34mupdate successful\033[0m"
 else
     echo -e "\033[34mskip updating plugins as -u/--update-plugins not specified\033[0m"
