@@ -63,9 +63,9 @@ let g:mapleader = "'"
 " Fast saving
 nmap <leader>w :w!<cr>
 
-" :W sudo saves the file 
-" (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
+" :W saves the file too
+" (useful for when mistyping :W)
+command W w
 
 " turn off errorbells, use visualbell instead
 set noerrorbells
