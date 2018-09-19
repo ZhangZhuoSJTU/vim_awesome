@@ -70,3 +70,6 @@ nmap <leader>c <Esc>:SyntasticCheck<CR>
 nmap <leader>r <Esc>:RustFmt<CR>
 " map <leader>t -> :TagbarToggle
 nmap <leader>t <Esc>:TagbarToggle<CR>
+
+" map <leader>l -> :NERDTreeToggle
+nmap <leader>l <Esc>:NERDTreeToggle<CR>
