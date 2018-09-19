@@ -57,3 +57,16 @@ let g:pymode_lint_on_write = 0
 let g:pymode_rope = 0
 " use python as default setting 
 let g:pymode_python = 'python'
+
+" Skip syntastic check when saving
+let g:syntastic_mode_map = {
+    \ "mode": "passive",
+    \ "active_filetypes": [],
+    \ "passive_filetypes": [] }
+
+" map <leader>c -> :SyntasticCheck
+nmap <leader>c <Esc>:SyntasticCheck<CR>
+" map <leader>r -> :RustFmt
+nmap <leader>r <Esc>:RustFmt<CR>
+" map <leader>t -> :TagbarToggle
+nmap <leader>t <Esc>:TagbarToggle<CR>
