@@ -66,6 +66,10 @@ let g:syntastic_mode_map = {
 
 " map <leader>c -> :SyntasticCheck
 nmap <leader>c <Esc>:SyntasticCheck<CR>
+" map <leader>q -> :lclose
+nmap <leader>q <Esc>:lclose<CR>
+" map <leader>e -> :Errors
+nmap <leader>e <Esc>:Errors<CR>
 " map <leader>r -> :RustFmt
 nmap <leader>r <Esc>:RustFmt<CR>
 " map <leader>t -> :TagbarToggle
