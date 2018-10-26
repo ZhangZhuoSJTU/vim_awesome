@@ -77,3 +77,6 @@ nmap <leader>t <Esc>:TagbarToggle<CR>
 
 " map <leader>l -> :NERDTreeToggle
 nmap <leader>l <Esc>:NERDTreeToggle<CR>
+
+" Highlight current line
+set cursorline
