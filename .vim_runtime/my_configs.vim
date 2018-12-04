@@ -78,11 +78,15 @@ nmap <leader>t <Esc>:TagbarToggle<CR>
 " map <leader>l -> :NERDTreeToggle
 nmap <leader>l <Esc>:NERDTreeToggle<CR>
 
-" Highlight current line
-set cursorline
-
 " Autocomplete 
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 inoremap " ""<LEFT>
+
+" Highlight current line
+set cursorline
+
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
