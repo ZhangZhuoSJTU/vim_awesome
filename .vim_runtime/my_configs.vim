@@ -80,3 +80,9 @@ nmap <leader>l <Esc>:NERDTreeToggle<CR>
 
 " Highlight current line
 set cursorline
+
+" Autocomplete 
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap { {}<LEFT>
+inoremap " ""<LEFT>
