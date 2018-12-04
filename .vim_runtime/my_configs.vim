@@ -80,3 +80,7 @@ nmap <leader>l <Esc>:NERDTreeToggle<CR>
 
 " Highlight current line
 set cursorline
+
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
