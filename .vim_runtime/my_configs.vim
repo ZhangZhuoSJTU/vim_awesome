@@ -72,6 +72,8 @@ nmap <leader>q <Esc>:lclose<CR>
 nmap <leader>e <Esc>:Errors<CR>
 " map <leader>r -> :RustFmt
 nmap <leader>r <Esc>:RustFmt<CR>
+" map <leader>b -> :Black
+nmap <leader>b <Esc>:Black<CR>
 " map <leader>t -> :TagbarToggle
 nmap <leader>t <Esc>:TagbarToggle<CR>
 
